@@ -1,0 +1,10 @@
+<table border="" >
+  <tr *ngFor="let books of bookList">
+    <td>{{books.bookNumber}}</td>
+    <td>{{books.bookName}}</td>
+    <td>{{books.price}}</td>
+    <td><input type="button" (click)= 'submit(books.bookNumber)' value="View"></td>
+  </tr>
+</table>
+{{msg}} {{userList[0]|json}}
+

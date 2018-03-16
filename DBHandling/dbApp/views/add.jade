@@ -1,0 +1,10 @@
+extends layout
+
+block content
+ div
+  form(action="storeData",method="post")
+   label(for="") Name:
+   input(type="text",name="name")
+   label(for="") Age:
+   input(type="text",name="age")
+   button(type="submit") Submit
